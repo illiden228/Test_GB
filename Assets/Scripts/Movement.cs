@@ -10,11 +10,6 @@ public class Movement : MonoBehaviour
     
     void Start()
     {
-        _rigidbody = GetComponent<Rigidbody>();
-    }
-
-    private void Update()
-    {
-        _rigidbody.AddForce(Vector3.forward * _speed * Time.deltaTime);
+        // _rigidbody = GetComponent<Rigidbody>();
     }
 }
